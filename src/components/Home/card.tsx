@@ -30,11 +30,11 @@ const Card = () => {
           </h2>
           <StyledLine />
           <p>
-            O nosso papel é construir a conexão entre as pessoas da
-            comunidadeLGBTQIAPN+ que precisam de atendimento clínico com
-            profissionais da saúde. Tudo isso com segurança, inclusão e
-            representatividade. Surgimos da esperança de ter um atendimento
-            clínico qualificado, seguro e empático para todas as pessoas.
+            O nosso papel é construir a conexão entre as pessoas da comunidade
+            LGBTQIAPN+ que precisam de atendimento clínico com profissionais da
+            saúde. Tudo isso com segurança, inclusão e representatividade.
+            Surgimos da esperança de ter um atendimento clínico qualificado,
+            seguro e empático para todas as pessoas.
           </p>
           <Link
             style={{textDecoration: "none"}}
