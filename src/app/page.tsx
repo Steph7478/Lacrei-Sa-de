@@ -8,18 +8,22 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex-col-center" style={{overflowX: "hidden", gap: "80px"}}>
+    <div className="flex-col-center" style={{overflowX: "hidden"}}>
       <Header />
       <section
         className="max-width flex-col-center media-text-center"
-        style={{padding: "0 30px"}}
+        style={{padding: "0 30px", margin: "80px 0 0 0"}}
       >
-        <h2>Conheça o jeito Lacrei Saúde de cuidar</h2>
+        <h2 style={{fontSize: "2.5rem"}}>
+          Conheça o jeito Lacrei Saúde de cuidar
+        </h2>
         <StyledLine />
-        <h3>Atendimento de qualidade e inclusivo</h3>
+        <h3 style={{fontSize: "1.5rem"}}>
+          Atendimento de qualidade e inclusivo
+        </h3>
         <div
           className="flex-center cards"
-          style={{gap: "30px", padding: "30px 0"}}
+          style={{gap: "30px", padding: "30px"}}
         >
           <StyledCards>
             <Image
