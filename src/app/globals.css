@@ -1,3 +1,10 @@
+:root {
+  --green: rgb(1, 135, 98);
+  --green-opacity: rgba(1, 135, 97, 0.05);
+  --navbar: linear-gradient(rgb(245, 255, 251) 31.04%, rgb(255, 255, 255) 100%);
+  --footer: linear-gradient(rgb(237, 255, 248) 31.04%, rgb(255, 255, 255) 100%);
+}
+
 html,
 body,
 h1,
@@ -7,13 +14,12 @@ h3 {
   margin: 0;
 }
 
-:root {
-  --green: rgb(1, 135, 98);
-  --green-opacity: rgba(1, 135, 97, 0.05);
-  --navbar: linear-gradient(rgb(245, 255, 251) 31.04%, rgb(255, 255, 255) 100%);
-  --footer: linear-gradient(rgb(237, 255, 248) 31.04%, rgb(255, 255, 255) 100%);
+h1,
+h2,
+h3,
+p {
+  color: rgb(31, 31, 31);
 }
-
 .blueText {
   background: linear-gradient(
     105.43deg,

@@ -43,7 +43,6 @@ const Header = () => {
           </h1>
           <p
             style={{
-              color: "black",
               fontSize: "30px",
             }}
           >

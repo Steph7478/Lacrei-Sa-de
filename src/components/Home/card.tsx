@@ -29,15 +29,18 @@ const Card = () => {
             O que é a <br /> Lacrei Saúde?
           </h2>
           <StyledLine />
-          <p>
+          <p style={{fontSize: "1.2rem"}}>
             O nosso papel é construir a conexão entre as pessoas da comunidade
             LGBTQIAPN+ que precisam de atendimento clínico com profissionais da
-            saúde. Tudo isso com segurança, inclusão e representatividade.
+            saúde. <br />
+            <br /> Tudo isso com segurança, inclusão e representatividade.{" "}
+            <br />
+            <br />
             Surgimos da esperança de ter um atendimento clínico qualificado,
             seguro e empático para todas as pessoas.
           </p>
           <Link
-            style={{textDecoration: "none"}}
+            style={{textDecoration: "none", marginTop: "10px"}}
             href="/quem-somos"
             className="flex-center button-width"
           >
