@@ -11,6 +11,7 @@ h3 {
   --green: rgb(1, 135, 98);
   --green-opacity: rgba(1, 135, 97, 0.05);
   --navbar: linear-gradient(rgb(245, 255, 251) 31.04%, rgb(255, 255, 255) 100%);
+  --footer: linear-gradient(rgb(237, 255, 248) 31.04%, rgb(255, 255, 255) 100%);
 }
 
 .blueText {
@@ -36,7 +37,7 @@ h3 {
   width: 100%;
   border-radius: 8px;
   cursor: pointer;
-  padding: 12px 10px;
+  padding: 10px 12px;
   transition: background-color 0.3s;
 }
 
@@ -49,6 +50,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
 .flex-items-start {
   display: flex;
   justify-content: center;
@@ -161,7 +163,7 @@ h3 {
 
 @media (max-width: 400px) {
   .link-hover {
-    font-size: 1rem;
+    font-size: 1-2rem;
   }
 
   .logo {

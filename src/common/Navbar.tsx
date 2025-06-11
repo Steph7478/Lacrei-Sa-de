@@ -43,11 +43,10 @@ const Navbar = () => {
           className="flex-center"
           style={{
             listStyle: "none",
-            width: "150px",
             height: "30px",
           }}
         >
-          <Link className="link-hover flex-center" href="/quem-somos">
+          <Link className="link-hover flex-center full" href="/quem-somos">
             Quem somos
           </Link>
         </li>
