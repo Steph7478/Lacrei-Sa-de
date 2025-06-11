@@ -1,6 +1,7 @@
 import {StyledWhiteButton} from "@/ui/button";
 import {StyledLine} from "@/ui/line";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Card = () => {
@@ -35,9 +36,13 @@ const Card = () => {
             representatividade. Surgimos da esperança de ter um atendimento
             clínico qualificado, seguro e empático para todas as pessoas.
           </p>
-          <div className="flex-center button-width">
+          <Link
+            style={{textDecoration: "none"}}
+            href="/quem-somos"
+            className="flex-center button-width"
+          >
             <StyledWhiteButton>Conhecer</StyledWhiteButton>
-          </div>
+          </Link>
         </div>
       </div>
     </>

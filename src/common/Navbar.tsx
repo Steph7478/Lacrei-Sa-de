@@ -23,7 +23,7 @@ const Navbar = () => {
         className="flex-between"
       >
         <Link
-          href={"/"}
+          href="/"
           style={{
             height: "100%",
           }}
@@ -47,7 +47,7 @@ const Navbar = () => {
             height: "30px",
           }}
         >
-          <Link className="link-hover flex-center" href="/">
+          <Link className="link-hover flex-center" href="/quem-somos">
             Quem somos
           </Link>
         </li>

@@ -1,4 +1,6 @@
+import {StyledGreenButton} from "@/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -22,14 +24,13 @@ const Header = () => {
           objectFit: "cover",
         }}
       />
-      <div className="max-width">
+      <div className="max-width" style={{padding: "40px 20px"}}>
         <div
           className="flex-col-start full header"
           style={{
-            padding: "40px 20px",
             flexDirection: "column",
             textAlign: "start",
-            maxWidth: "450px",
+            maxWidth: "500px",
           }}
         >
           <h1
@@ -50,6 +51,26 @@ const Header = () => {
             qualificados, proporcionando experiências de cuidado seguras e
             inclusivas.
           </p>
+          <div
+            style={{
+              gap: "15px",
+              margin: 0,
+            }}
+            className="flex-start sm-flex-col-center full"
+          >
+            <Link
+              className="button-width"
+              href="https://paciente.lacreisaude.com.br/"
+            >
+              <StyledGreenButton>Para pacientes</StyledGreenButton>
+            </Link>
+            <Link
+              className="button-width"
+              href="https://profissional.lacreisaude.com.br/"
+            >
+              <StyledGreenButton>Para profissionais</StyledGreenButton>
+            </Link>
+          </div>
         </div>
       </div>
     </header>
