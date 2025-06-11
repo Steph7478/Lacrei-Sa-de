@@ -11,6 +11,7 @@ export const StyledCards = styled.div`
   align-items: center;
   text-align: center;
   border-radius: 8px;
+  font-size: 1.1rem;
   gap: 10px;
   padding: 40px 60px;
 `;

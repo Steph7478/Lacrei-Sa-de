@@ -18,7 +18,7 @@ const Home = () => {
           Conheça o jeito Lacrei Saúde de cuidar
         </h2>
         <StyledLine />
-        <h3 style={{fontSize: "1.5rem"}}>
+        <h3 style={{fontSize: "1.5rem", fontWeight: "normal"}}>
           Atendimento de qualidade e inclusivo
         </h3>
         <div
