@@ -1,7 +1,29 @@
+html,
+body,
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --green: rgb(1, 135, 98);
   --green-opacity: rgba(1, 135, 97, 0.05);
   --navbar: linear-gradient(rgb(245, 255, 251) 31.04%, rgb(255, 255, 255) 100%);
+}
+
+.blueText {
+  background: linear-gradient(
+    105.43deg,
+    rgb(1, 131, 131) 14.39%,
+    rgb(1, 70, 135) 84.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
 }
 
 .link-hover {
@@ -28,14 +50,94 @@
   align-items: center;
 }
 
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.flex-start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 .full {
   width: 100%;
   height: 100%;
+}
+
+.header {
+  margin-left: 100px;
+  color: var(--green);
+}
+
+.max-width {
+  max-width: 1150px;
+  width: 100%;
+}
+
+.main-card {
+  right: 0;
+  margin-right: 75px;
+  padding: 22px 30px;
+  position: absolute;
+  background-color: white;
+  border-radius: 16px;
+  max-width: 410px;
+  border: 2px solid rgba(128, 128, 128, 0.25);
+  width: 100%;
+  min-height: 390px;
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .media-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-width {
+    width: 100%;
+    margin: 0;
+  }
+
+  .hidden-image {
+    display: none;
+  }
+
+  .main-card {
+    position: static;
+    margin: 0;
+  }
+
+  .media-text-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 400px) {
